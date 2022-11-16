@@ -9,18 +9,43 @@
 </head>
 
 <body>
+    <p>Nombre del cliente:</p>
+    <input type="text" class="user">
+
+    <form action="#">
+        <label for="lang">Material de la caja:</label>
+        <select name="materiales" class="select">
+            <option value="Madera">Madera</option>
+            <option value="Cartón">Cartón</option>
+            <option value="Oro">Oro</option>
+            <option value="Hierro">Hierro</option>
+        </select>
+    </form>
+
+    <br>
+    <p>Elige el tamaño</p>
+    <input type="radio" name="box" value="1" id="option1">Pequeña
+    <br>
+    <input type="radio" name="box" value="2" id="option2">Normal
+    <br>
+    <input type="radio" name="box" value="3" id="option3">Grande
+    <br>
+
+    <p>Comentarios:</p>
+    <textarea class="text" name="w3review" rows="4" cols="50">
+    </textarea>
+    <br>
+
+    <button id="button">Enviar</button>
+    <p id="result"></p>
 
 
-    <h2>Nombre del cliente:</h2>
-    <input type="text">
-    <p>Material de la caja:
-    <ul>
-        <li>Madera</li>
-        <li>Hierro</li>
-        <li>Cañamo</li>
-        <li>Plastico</li>
-    </ul>
-    </p>
+
+
+
+
+
+
 
     <script src="./main.js"></script>
 </body>
